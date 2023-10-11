@@ -1,0 +1,75 @@
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+}
+
+.sedan {
+  background-color: #e28625;
+  padding: 30px;
+  color: white;
+  font-weight: 200;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 40px;
+}
+
+.suv {
+  background-color: #006971;
+  padding: 30px;
+  color: white;
+  font-weight: 200;
+  padding: 40px;
+}
+
+.luxury {
+  background-color: #004140;
+  padding: 30px;
+  color: white;
+  font-weight: 200;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 40px;
+}
+
+.cars {
+  display: flex;
+  min-height: 400px;
+}
+
+.button-sedan {
+  margin-top: 50px;
+  background-color: white;
+  color: #e28625;
+  border: none;
+  border-radius: 100px;
+  width: 146px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.button-suv {
+  margin-top: 50px;
+  background-color: white;
+  color: #006971;
+  border: none;
+  border-radius: 100px;
+  width: 146px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.button-lux {
+  margin-top: 50px;
+  background-color: white;
+  color: #004140;
+  border: none;
+  border-radius: 100px;
+  width: 146px;
+  height: 48px;
+  font-size: 16px;
+}
